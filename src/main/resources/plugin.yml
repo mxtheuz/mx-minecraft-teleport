@@ -1,0 +1,6 @@
+name: MxTeleport
+version: '${version}'
+main: br.com.mxtheuz.mxteleport.MxTeleport
+api-version: '1.16'
+commands:
+  teleport:
