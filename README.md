@@ -55,7 +55,7 @@ locations:
     z: z_coordinate
 ```
 
-Make sure to replace ``location1`, `location2`, etc., with the desired location names. Replace `world_name`, `x_coordinate`, `y_coordinate`, and `z_coordinate` with the corresponding values for each location.
+Make sure to replace `location1`, `location2`, etc., with the desired location names. Replace `world_name`, `x_coordinate`, `y_coordinate`, and `z_coordinate` with the corresponding values for each location.
 
 ## Contributing
 We welcome contributions to improve MxTeleport. To contribute, follow these steps:
