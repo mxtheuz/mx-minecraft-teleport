@@ -9,7 +9,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class MxTeleport extends JavaPlugin {
-
     @Override
     public void onEnable() {
         getLogger().info("[mx-teleport] Teleporte esta funcionando!");
@@ -31,7 +30,7 @@ public class MxTeleport extends JavaPlugin {
             }
 
             String locationName = args[0];
-            World targetLocation = Bukkit.getWorld(locationName); // Substitua "house" pelo nome do seu mundo
+            World targetLocation = Bukkit.getWorld(locationName); 
 
             if (targetLocation == null) {
                 player.sendMessage("O mundo de destino nao foi encontrado.");
@@ -46,6 +45,4 @@ public class MxTeleport extends JavaPlugin {
 
         return false;
     }
-
-
 }
